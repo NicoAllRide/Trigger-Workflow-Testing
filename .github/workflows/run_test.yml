@@ -10,8 +10,8 @@ jobs:
       - name: Trigger Workflow in Another Repository
         run: |
           # Set the required variables
-          repo_owner="Nico2795" 
-          repo_name="RF-Automation-Test"  
+          repo_owner="NicoAllRide" 
+          repo_name="Testing-Automation-Tests"  
           event_type="Run Robot Framework Tests" 
           event_type="trigger-workflow" 
           service="${{ github.event.inputs.target_service }}"
