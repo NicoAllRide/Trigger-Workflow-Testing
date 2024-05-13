@@ -16,6 +16,7 @@ jobs:
           repo_owner="NicoAllRide"
           repo_name="Testing-Automation-Tests"
           event_type="Run Robot Framework Tests"
+          event_type="trigger-workflow"
           service="${{ github.event.inputs.target_service }}"
           version="${{ github.event.inputs.target_version }}"
           sha="${{ steps.get_sha.outputs.sha }}"  # Obtained from the previous step
